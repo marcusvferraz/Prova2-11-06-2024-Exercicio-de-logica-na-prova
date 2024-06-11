@@ -1,0 +1,98 @@
+    #container-modal {
+        display: none;
+        background-color: rgba(204, 204, 204, 0.822);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    #form-modal {
+    position: relative;
+    margin: auto;
+    background-color: #f8f8f8;
+    color: #213287;
+    padding: 30px;
+    border-radius: 20px;
+    }
+
+    table, th, td {
+        border: 1px solid;
+    }
+
+    table {
+        border-collapse:  collapse;
+        width: 100%;
+    }
+
+    th, td {
+    align-items: center;
+    font-family: sans-serif;
+    }
+
+    thead tr {
+    background-color:rgb(199, 199, 199);
+    }
+
+    thead tr th {
+        padding: 3px;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #eeeeee;
+    }
+
+    button {
+        align-items: center;
+        background-color: #213287;
+        color: white;
+        padding: 5px 20px;
+        border: 1px solid #213287;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-family: sans-serif;
+        font-size: 1.5em;
+        color: #213287;
+    }
+
+    #botao-cancelar { 
+        background-color: #fff;
+        color: #213287;
+        border: 1px solid #213287;
+    }
+
+    .botao-excluir { 
+        background-color: #CC0000;
+        color: #fff;
+        border-width: 0px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .form-group label {
+        flex: 1;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-right: 10px;
+        align-self: center;
+    }
+
+    .form-group input {
+        flex: 1;
+        font-family: sans-serif;
+        padding: 5px;
+    }
+
+    .form-buttons {
+        display: flex;
+        justify-content: center;
+    }
